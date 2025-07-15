@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.26)
 
 project(YoOggVorbis)
 
-set(CMAKE_INSTALL_PREFIX "package-export" CACHE PATH "Install path" FORCE)
-
 add_subdirectory(ogg)
 add_subdirectory(vorbis)
 
